@@ -52,8 +52,9 @@ body {
 }
 /* --- Section Backgrounds --- */
 #intro { background: linear-gradient(190deg, #ffdfe0, #fff4f1); }
-#fractal-explanation { background-color: #ffffff; }
-#gift2 { background: linear-gradient(135deg, #ffdfe0, #fff4f1); }
+#fractal-explanation { background-color:#ffffff ;}
+#fractal-side-image { background-color: #ffffff; }
+#gift2 { background: linear-gradient(180deg, #ffffff, #ffe3e4); }
 #instructions-link { background-color: #ffffff; }
 
 /* --- Shared Content Styling --- */
@@ -168,8 +169,8 @@ img {
   
 
 .gift-text {
-    font-size: 0.85em;
-    max-width: 90%;
+    font-size: 1.05em;
+    max-width: 100%;
 }
 
 /* Side-by-side layout in explanation section */
@@ -183,28 +184,23 @@ img {
     margin-top: 30px;
 }
 
-#fractal-explanation .text-block {
-    flex: 1 1 350px;
-    max-width: 500px;
-    text-align: center;
-    padding: 0px;
+#fractal-side-image .text-block {
+    flex: 1 1 50%;
+    max-width: 900em;
+    text-align: left;
+    padding: 10px 10px;
 }
 
 .side-image-container {
-    flex: 1 1 250px;
-    max-width: 300px;
+    flex: 1 1 40%;
+    max-width: 100em;
     text-align: center;
-    padding: 0px;
-    margin: 0 auto; /* Center the container horizontally */
+    margin: 0 auto;
 }
 
 .side-image {
-    margin: 0px;
-    padding: 0px;
     width: 100%;
-    max-width: 24em;
-    border-radius: 12px;
-
+    max-width: 100em;
 }
 
 
