@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Anniversary!</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lottie-web@latest/build/player/lottie.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.8.0/math.min.js"></script>
+
+
+</head>
+<body>
+
+    <!-- Scroll Snap Wrapper -->
+    <div id="snap-wrapper">
+        
+        <section id="intro" class="fullscreen-section">
+            <div class="section-content">
+                <h1>happy anniversary amor!!!</h1>
+                <img id="main-image" src="assets/us.jpg" alt="Anniversary Image" class="square-image">
+                <p class="small-text">You are the bestest person I've gotten to meet in my life</p>
+                <p class="small-text">I love you so so so much and I am grateful for everything you've done for me</p>
+                <p class="small-text">You've given me a reason to be here and I will spend the rest of my life making sure you have one</p>
+            </div>
+        </section>
+
+        <section id="fractal-explanation" class="fullscreen-section">
+            <div class="section-content">
+          
+              <!-- Top scroll-loop with fractal images -->
+              <div class="book-animation-wrapper">
+                <div class="book-scroll-loop">
+                  <div class="book-loop-group">
+                    <img src="assets/fractal1.png" alt="Fractal Image 1" class="book-img">
+                    <img src="assets/fractal2.png" alt="Fractal Image 2" class="book-img">
+                  </div>
+                  <div class="book-loop-group">
+                    <img src="assets/fractal1.png" alt="Fractal Image 1 Duplicate" class="book-img">
+                    <img src="assets/fractal2.png" alt="Fractal Image 2 Duplicate" class="book-img">
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Side-by-side text + static image layout -->
+                <div class="text-block">
+                  <h2 class="section-title">first gift</h2>
+                  <p class="gift-text">
+                    What you see up top are fractals. A fractal is a shape that repeats forever — infinite complex all born from a simple equation.
+                  </p>
+                  <p class="gift-text">
+                    It’s not random. Every swirl is shaped by who you are. Something beautiful, intricate, and full of meaning, just like you.
+                  </p>
+                  <p class="gift-text">
+                    There are so many functions studied to generate fractals, but I decided to generate one made with numbers that will make it truly YOURS:
+                  </p>
+          
+                <div class="side-image-container">
+                  <img src="assets/ss.png" alt="Fractal Side Image" class="side-image">
+                </div>
+              </div>
+          
+            </div>
+          </section>
+          
+
+        <!-- Emoji + Final Message -->
+        <section id="gift2" class="fullscreen-section">
+            <div class="section-content">
+                <h2 class="section-title">Annie’s Fractal</h2>
+                <div class="canvas-frame-container">
+                    <canvas id="fractal-canvas" width="400" height="400"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section id="gift2" class="fullscreen-section">
+            <div class="section-content">
+                <h2 class="section-title">second gift</h2>
+                <div class="inline-emoji tgs-emoji big-emoji" data-src="assets/gift2.json"></div>
+                <p class="gift-text">
+                    It's time... open the box!
+                </p>
+            </div>
+        </section>
+
+
+        <section id="instructions-link" class="fullscreen-section">
+            <div class="section-content horizontal-layout">
+                <div class="text-block">
+                    <h2 class="section-title">I hope you loved everything baby! </h2>
+                    <div class="inline-emoji tgs-emoji" data-src="assets/love.json"></div>
+                    <p class="gift-text">
+                        I already included all your favorite books, but you should click here to learn how to load more!
+                    </p>
+                    <a href="instructions.html" class="button-link">Click here for instructions on how to load more books!</a>
+                </div>
+        
+                <div class="book-animation-wrapper">
+                    <div class="book-scroll-loop">
+                        <div class="book-loop-group">
+                            <img src="assets/books1.png" alt="Books" class="book-img">
+                            <img src="assets/books2.png" alt="Books" class="book-img">
+                        </div>
+                        <div class="book-loop-group">
+                            <img src="assets/books1.png" alt="Books" class="book-img">
+                            <img src="assets/books2.png" alt="Books" class="book-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+    </div> <!-- End of snap-wrapper -->
+
+    <script src="script.js"></script>
+</body>
+</html>
